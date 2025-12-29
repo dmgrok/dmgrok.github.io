@@ -1,0 +1,324 @@
+{
+  "de": {
+    "morning": "Guten Morgen",
+    "afternoon": "Guten Tag",
+    "evening": "Guten Abend",
+    "night": "Gute Nacht",
+    "generic": "Hallo"
+  },
+  "it": {
+    "morning": "Buongiorno",
+    "afternoon": "Buon pomeriggio",
+    "evening": "Buonasera",
+    "night": "Buonanotte",
+    "generic": "Ciao"
+  },
+  "nl": {
+    "morning": "Goedemorgen",
+    "afternoon": "Goedemiddag",
+    "evening": "Goedenavond",
+    "night": "Goedenacht",
+    "generic": "Hallo"
+  },
+  "ja": {
+    "morning": "おはようございます",
+    "afternoon": "こんにちは",
+    "evening": "こんばんは",
+    "night": "こんばんは",
+    "generic": "こんにちは"
+  },
+  "ko": {
+    "morning": "좋은 아침이에요",
+    "afternoon": "안녕하세요",
+    "evening": "안녕하세요",
+    "night": "안녕하세요",
+    "generic": "안녕하세요"
+  },
+  "zh": {
+    "morning": "早上好",
+    "afternoon": "下午好",
+    "evening": "晚上好",
+    "night": "晚安",
+    "generic": "你好"
+  },
+  "ar": {
+    "morning": "صباح الخير",
+    "afternoon": "مساء الخير",
+    "evening": "مساء الخير",
+    "night": "تصبح على خير",
+    "generic": "مرحبا"
+  },
+  "hi": {
+    "morning": "सुप्रभात",
+    "afternoon": "नमस्ते",
+    "evening": "शुभ संध्या",
+    "night": "शुभ रात्रि",
+    "generic": "नमस्ते"
+  },
+  "ru": {
+    "morning": "Доброе утро",
+    "afternoon": "Добрый день",
+    "evening": "Добрый вечер",
+    "night": "Доброй ночи",
+    "generic": "Привет"
+  },
+  "pl": {
+    "morning": "Dzień dobry",
+    "afternoon": "Dzień dobry",
+    "evening": "Dobry wieczór",
+    "night": "Dobranoc",
+    "generic": "Cześć"
+  },
+  "sv": {
+    "morning": "God morgon",
+    "afternoon": "God eftermiddag",
+    "evening": "God kväll",
+    "night": "God natt",
+    "generic": "Hej"
+  },
+  "tr": {
+    "morning": "Günaydın",
+    "afternoon": "İyi günler",
+    "evening": "İyi akşamlar",
+    "night": "İyi geceler",
+    "generic": "Merhaba"
+  },
+  "he": {
+    "morning": "בוקר טוב",
+    "afternoon": "צהריים טובים",
+    "evening": "ערב טוב",
+    "night": "לילה טוב",
+    "generic": "שלום"
+  },
+  "th": {
+    "morning": "สวัสดีตอนเช้า",
+    "afternoon": "สวัสดีตอนบ่าย",
+    "evening": "สวัสดีตอนเย็น",
+    "night": "ราตรีสวัสดิ์",
+    "generic": "สวัสดี"
+  },
+  "vi": {
+    "morning": "Chào buổi sáng",
+    "afternoon": "Chào buổi chiều",
+    "evening": "Chào buổi tối",
+    "night": "Chúc ngủ ngon",
+    "generic": "Xin chào"
+  },
+  "cs": {
+    "morning": "Dobré ráno",
+    "afternoon": "Dobré odpoledne",
+    "evening": "Dobrý večer",
+    "night": "Dobrou noc",
+    "generic": "Ahoj"
+  },
+  "da": {
+    "morning": "Godmorgen",
+    "afternoon": "God eftermiddag",
+    "evening": "Godaften",
+    "night": "Godnat",
+    "generic": "Hej"
+  },
+  "fi": {
+    "morning": "Hyvää huomenta",
+    "afternoon": "Hyvää iltapäivää",
+    "evening": "Hyvää iltaa",
+    "night": "Hyvää yötä",
+    "generic": "Hei"
+  },
+  "el": {
+    "morning": "Καλημέρα",
+    "afternoon": "Καλό απόγευμα",
+    "evening": "Καλησπέρα",
+    "night": "Καληνύχτα",
+    "generic": "Γεια σου"
+  },
+  "hu": {
+    "morning": "Jó reggelt",
+    "afternoon": "Jó napot",
+    "evening": "Jó estét",
+    "night": "Jó éjszakát",
+    "generic": "Szia"
+  },
+  "id": {
+    "morning": "Selamat pagi",
+    "afternoon": "Selamat siang",
+    "evening": "Selamat sore",
+    "night": "Selamat malam",
+    "generic": "Halo"
+  },
+  "ms": {
+    "morning": "Selamat pagi",
+    "afternoon": "Selamat tengah hari",
+    "evening": "Selamat petang",
+    "night": "Selamat malam",
+    "generic": "Hai"
+  },
+  "no": {
+    "morning": "God morgen",
+    "afternoon": "God ettermiddag",
+    "evening": "God kveld",
+    "night": "God natt",
+    "generic": "Hei"
+  },
+  "ro": {
+    "morning": "Bună dimineața",
+    "afternoon": "Bună ziua",
+    "evening": "Bună seara",
+    "night": "Noapte bună",
+    "generic": "Salut"
+  },
+  "sk": {
+    "morning": "Dobré ráno",
+    "afternoon": "Dobré popoludnie",
+    "evening": "Dobrý večer",
+    "night": "Dobrú noc",
+    "generic": "Ahoj"
+  },
+  "uk": {
+    "morning": "Доброго ранку",
+    "afternoon": "Добрий день",
+    "evening": "Добрий вечір",
+    "night": "На добраніч",
+    "generic": "Привіт"
+  },
+  "bg": {
+    "morning": "Добро утро",
+    "afternoon": "Добър ден",
+    "evening": "Добър вечер",
+    "night": "Лека нощ",
+    "generic": "Здравей"
+  },
+  "hr": {
+    "morning": "Dobro jutro",
+    "afternoon": "Dobar dan",
+    "evening": "Dobra večer",
+    "night": "Laku noć",
+    "generic": "Bok"
+  },
+  "et": {
+    "morning": "Tere hommikust",
+    "afternoon": "Tere päevast",
+    "evening": "Tere õhtust",
+    "night": "Head ööd",
+    "generic": "Tere"
+  },
+  "lt": {
+    "morning": "Labas rytas",
+    "afternoon": "Laba diena",
+    "evening": "Labas vakaras",
+    "night": "Labanakt",
+    "generic": "Labas"
+  },
+  "lv": {
+    "morning": "Labrīt",
+    "afternoon": "Labdien",
+    "evening": "Labvakar",
+    "night": "Ar labu nakti",
+    "generic": "Sveiki"
+  },
+  "sl": {
+    "morning": "Dobro jutro",
+    "afternoon": "Dober dan",
+    "evening": "Dober večer",
+    "night": "Lahko noč",
+    "generic": "Živjo"
+  },
+  "sr": {
+    "morning": "Добро јутро",
+    "afternoon": "Добар дан",
+    "evening": "Добро вече",
+    "night": "Лаку ноћ",
+    "generic": "Здраво"
+  },
+  "ca": {
+    "morning": "Bon dia",
+    "afternoon": "Bona tarda",
+    "evening": "Bona nit",
+    "night": "Bona nit",
+    "generic": "Hola"
+  },
+  "eu": {
+    "morning": "Egun on",
+    "afternoon": "Arratsalde on",
+    "evening": "Gabon",
+    "night": "Gabon",
+    "generic": "Kaixo"
+  },
+  "gl": {
+    "morning": "Bos días",
+    "afternoon": "Boas tardes",
+    "evening": "Boas noites",
+    "night": "Boas noites",
+    "generic": "Ola"
+  },
+  "cy": {
+    "morning": "Bore da",
+    "afternoon": "Prynhawn da",
+    "evening": "Noswaith dda",
+    "night": "Nos da",
+    "generic": "Helo"
+  },
+  "ga": {
+    "morning": "Maidin mhaith",
+    "afternoon": "Tráthnóna maith",
+    "evening": "Tráthnóna maith",
+    "night": "Oíche mhaith",
+    "generic": "Dia duit"
+  },
+  "mt": {
+    "morning": "Bonġu",
+    "afternoon": "Wara nofsinhar it-tajjeb",
+    "evening": "Bonswa",
+    "night": "Il-lejl it-tajjeb",
+    "generic": "Ħellow"
+  },
+  "is": {
+    "morning": "Góðan daginn",
+    "afternoon": "Góðan daginn",
+    "evening": "Gott kvöld",
+    "night": "Góða nótt",
+    "generic": "Halló"
+  },
+  "af": {
+    "morning": "Goeie môre",
+    "afternoon": "Goeie middag",
+    "evening": "Goeie naand",
+    "night": "Goeie nag",
+    "generic": "Hallo"
+  },
+  "sw": {
+    "morning": "Habari za asubuhi",
+    "afternoon": "Habari za mchana",
+    "evening": "Habari za jioni",
+    "night": "Usiku mwema",
+    "generic": "Jambo"
+  },
+  "bn": {
+    "morning": "সুপ্রভাত",
+    "afternoon": "শুভ অপরাহ্ন",
+    "evening": "শুভ সন্ধ্যা",
+    "night": "শুভ রাত্রি",
+    "generic": "হ্যালো"
+  },
+  "ta": {
+    "morning": "காலை வணக்கம்",
+    "afternoon": "மதிய வணக்கம்",
+    "evening": "மாலை வணக்கம்",
+    "night": "இரவு வணக்கம்",
+    "generic": "வணக்கம்"
+  },
+  "te": {
+    "morning": "శుభోదయం",
+    "afternoon": "శుభ మధ్యాహ్నం",
+    "evening": "శుభ సాయంత్రం",
+    "night": "శుభ రాత్రి",
+    "generic": "హలో"
+  },
+  "fa": {
+    "morning": "صبح بخیر",
+    "afternoon": "ظهر بخیر",
+    "evening": "عصر بخیر",
+    "night": "شب بخیر",
+    "generic": "سلام"
+  }
+}

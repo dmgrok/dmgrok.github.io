@@ -1,0 +1,105 @@
+{
+  "meta": {
+    "language": "pt",
+    "languageName": "Português",
+    "direction": "ltr"
+  },
+  "greeting": {
+    "morning": "Bom dia",
+    "afternoon": "Boa tarde",
+    "evening": "Boa noite",
+    "night": "Olá, coruja noturna"
+  },
+  "hero": {
+    "tagline": "Engenheiro Principal de IA para SDLC/DevEx",
+    "subtitle": "Liderando transformação de IA em escala"
+  },
+  "sections": {
+    "about": {
+      "title": "Sobre",
+      "content": "Lidero iniciativas de transformação de IA na AXA, ajudando equipes de engenharia a adotar fluxos de trabalho de desenvolvimento com IA em escala. Com mais de 17 anos em engenharia de software, me especializo em conectar capacidades de IA de ponta com implementação empresarial."
+    },
+    "expertise": {
+      "title": "Especialidades",
+      "items": [
+        "Estratégia & Transformação de IA",
+        "Liderança de Engenharia em Escala",
+        "Adoção do GitHub Copilot Enterprise",
+        "Experiência do Desenvolvedor & Produtividade",
+        "SDLC Seguro com IA",
+        "Construção de Comunidades"
+      ]
+    },
+    "speaking": {
+      "title": "Palestras",
+      "availability": "Disponível para keynotes, workshops, painéis, podcasts e briefings executivos",
+      "topicsLabel": "Temas que abordo:",
+      "languages": "Apresento em inglês, francês, português e espanhol.",
+      "pastEvents": "Eventos Anteriores",
+      "sessionFormats": "Formatos de Sessão:",
+      "requestKit": "Solicitar Kit de Palestrante",
+      "viewSessionize": "Ver Perfil Sessionize"
+    },
+    "results": {
+      "title": "Resultados & Impacto"
+    },
+    "github": {
+      "title": "GitHub & Código Aberto",
+      "featuredRepos": "Repositórios em Destaque"
+    },
+    "certifications": {
+      "title": "Certificações & Reconhecimento"
+    },
+    "achievements": {
+      "title": "Impacto",
+      "stats": {
+        "years": "Anos de Experiência",
+        "community": "Membros da Comunidade",
+        "countries": "Países Alcançados",
+        "trained": "Desenvolvedores Treinados (Segurança)",
+        "summit": "Participantes de Cúpulas"
+      }
+    },
+    "visibility": {
+      "title": "Menções"
+    }
+  },
+  "cta": {
+    "title": "Vamos Conectar",
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "email": "Email",
+    "speakingInquiry": "Interessado em uma palestra? Vamos conversar →",
+    "downloadCV": "Baixar CV"
+  },
+  "footer": {
+    "privacyLink": "Esta página se adapta a você. Nada é armazenado além do seu navegador. Curioso para saber como?",
+    "sourceCode": "Ver código fonte no GitHub"
+  },
+  "insights": {
+    "contextHeader": "Notei algumas coisas sobre você...",
+    "weather": {
+      "clear": "Céu limpo por aí! ☀️",
+      "cloudy": "Um pouco nublado aí. Perfeito para programar! ☁️",
+      "rainy": "Dia chuvoso? Ótimo momento para explorar novas ideias. 🌧️",
+      "snowy": "Neve! Fique aquecido com um bom café. ❄️",
+      "stormy": "Tempo de tempestade! Espero que esteja confortável. ⛈️",
+      "foggy": "Neblina lá fora. O código está mais claro que o tempo! 🌫️"
+    },
+    "time": {
+      "late": "Trabalhando até tarde? Respeito a dedicação. 🌙",
+      "early": "Madrugador! Os melhores commits acontecem antes do café fazer efeito. 🌅",
+      "weekend": "Navegando no fim de semana? Espero que também esteja descansando. 🎉"
+    },
+    "returning": "Bem-vindo de volta! Bom te ver novamente. 👋",
+    "smallScreen": "No celular? A experiência completa espera no desktop. 📱",
+    "developerDetected": "Vejo que tem uma máquina potente aí! Colega desenvolvedor? 💻",
+    "visitorTypes": {
+      "recruiter": "Buscando talentos? Sempre aberto a conversar sobre oportunidades.",
+      "speaker": "Planejando um evento? Adoraria discutir palestras.",
+      "developer": "Colega desenvolvedor! Fique à vontade para ver meu GitHub.",
+      "executive": "Bem-vindo! Me especializo em estratégia de IA para empresas.",
+      "inperson": "Prazer em conhecê-lo! Aqui está mais sobre o que faço."
+    }
+  }
+}

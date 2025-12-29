@@ -1,0 +1,105 @@
+{
+  "meta": {
+    "language": "en",
+    "languageName": "English",
+    "direction": "ltr"
+  },
+  "greeting": {
+    "morning": "Good morning",
+    "afternoon": "Good afternoon",
+    "evening": "Good evening",
+    "night": "Hello, night owl"
+  },
+  "hero": {
+    "tagline": "AI for SDLC/DevEx Principal Engineer",
+    "subtitle": "Leading AI transformation at scale"
+  },
+  "sections": {
+    "about": {
+      "title": "About",
+      "content": "I lead AI transformation initiatives at AXA, helping engineering teams adopt AI-powered development workflows at scale. With 17+ years in software engineering, I specialize in bridging the gap between cutting-edge AI capabilities and enterprise-grade implementation."
+    },
+    "expertise": {
+      "title": "Expertise",
+      "items": [
+        "AI Strategy & Transformation",
+        "Engineering Leadership at Scale",
+        "GitHub Copilot Enterprise Adoption",
+        "Developer Experience & Productivity",
+        "Secure SDLC with AI",
+        "Community Building"
+      ]
+    },
+    "speaking": {
+      "title": "Speaking",
+      "availability": "Available for keynotes, workshops, panels, podcasts, and executive briefings",
+      "topicsLabel": "Topics I speak about:",
+      "languages": "I present in English, French, Portuguese, and Spanish.",
+      "pastEvents": "Past Events",
+      "sessionFormats": "Session Formats:",
+      "requestKit": "Request Speaker Kit",
+      "viewSessionize": "View Sessionize Profile"
+    },
+    "results": {
+      "title": "Results & Impact"
+    },
+    "github": {
+      "title": "GitHub & Open Source",
+      "featuredRepos": "Featured Repositories"
+    },
+    "certifications": {
+      "title": "Certifications & Recognition"
+    },
+    "achievements": {
+      "title": "Impact",
+      "stats": {
+        "years": "Years Experience",
+        "community": "Community Members",
+        "countries": "Countries Reached",
+        "trained": "Developers Trained (Security)",
+        "summit": "Summit Attendees"
+      }
+    },
+    "visibility": {
+      "title": "Featured In"
+    }
+  },
+  "cta": {
+    "title": "Let's Connect",
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "email": "Email",
+    "speakingInquiry": "Interested in having me speak? Let's talk →",
+    "downloadCV": "Download CV"
+  },
+  "footer": {
+    "privacyLink": "This page adapts to you. Nothing stored beyond your browser. Curious how?",
+    "sourceCode": "View source on GitHub"
+  },
+  "insights": {
+    "contextHeader": "I noticed a few things about you...",
+    "weather": {
+      "clear": "Beautiful clear skies where you are! ☀️",
+      "cloudy": "Looks a bit cloudy your way. Perfect coding weather! ☁️",
+      "rainy": "Rainy day? Great time to explore new ideas. 🌧️",
+      "snowy": "Snow! Stay warm and caffeinated. ❄️",
+      "stormy": "Stormy weather! Hope you're somewhere cozy. ⛈️",
+      "foggy": "Foggy out there. The code is clearer than the weather! 🌫️"
+    },
+    "time": {
+      "late": "Working late? I respect the dedication. 🌙",
+      "early": "Early bird! The best commits happen before coffee kicks in. 🌅",
+      "weekend": "Weekend browsing? I hope you're taking some time to recharge too. 🎉"
+    },
+    "returning": "Welcome back! Great to see you again. 👋",
+    "smallScreen": "Viewing on mobile? The full experience awaits on desktop. 📱",
+    "developerDetected": "I see you've got a powerful machine there! Fellow developer? 💻",
+    "visitorTypes": {
+      "recruiter": "Looking for talent? I'm always happy to connect about opportunities.",
+      "speaker": "Planning an event? I'd love to discuss speaking opportunities.",
+      "developer": "Fellow developer! Feel free to check out my GitHub.",
+      "executive": "Welcome! I specialize in AI strategy for enterprise.",
+      "inperson": "Great meeting you! Here's more about what I do."
+    }
+  }
+}

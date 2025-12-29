@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="David Graça - AI for SDLC/DevEx Principal Engineer at AXA. Speaker, community builder, and AI transformation leader.">
+  <meta name="author" content="David Graça">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="David Graça - AI & Engineering Leader">
+  <meta property="og:description" content="Principal Engineer specializing in AI for SDLC, Developer Experience, and Engineering Transformation at scale.">
+  <meta property="og:type" content="profile">
+  <meta property="og:image" content="assets/profile.jpg">
+  
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="David Graça - AI & Engineering Leader">
+  <meta name="twitter:description" content="Principal Engineer specializing in AI for SDLC, Developer Experience, and Engineering Transformation.">
+  
+  <title>David Graça - AI & Engineering Leader</title>
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👋</text></svg>">
+  
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Skip link for accessibility -->
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <div class="page-wrapper">
+    <!-- Hero Section -->
+    <header class="hero" role="banner">
+      <div class="hero-content">
+        <div class="hero-left">
+          <img 
+            src="assets/profile.jpg" 
+            alt="David Graça" 
+            class="profile-photo"
+            width="140"
+            height="140"
+            loading="eager"
+          >
+        </div>
+        <div class="hero-right">
+          <p class="greeting" id="greeting" aria-live="polite">Hello!</p>
+          <h1 class="name">David Graça</h1>
+          <p class="title">AI for SDLC/DevEx Principal Engineer</p>
+          <p class="company">AXA Group · France</p>
+          
+          <!-- Dynamic CTA based on visitor type -->
+          <div class="hero-cta" id="hero-cta">
+            <a href="#contact" class="btn btn-primary">Let's connect</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Mood Card - Contextual, playful, visual -->
+    <section class="mood-card" id="mood-card" aria-live="polite" style="display: none;">
+      <div class="mood-visual" id="mood-visual">
+        <span class="mood-emoji" id="mood-emoji">☕</span>
+      </div>
+      <div class="mood-content">
+        <p class="mood-message" id="mood-message"></p>
+        <p class="mood-city" id="mood-city"></p>
+      </div>
+      <button class="mood-dismiss" id="mood-dismiss" aria-label="Dismiss">✕</button>
+    </section>
+
+    <!-- Main content -->
+    <main id="main" role="main">
+      
+      <!-- Impact Numbers - Horizontal bar -->
+      <section class="impact-bar" aria-label="Key metrics">
+        <div class="impact-item">
+          <span class="impact-number">2.4k+</span>
+          <span class="impact-label">community built</span>
+        </div>
+        <div class="impact-item">
+          <span class="impact-number">3</span>
+          <span class="impact-label">AI frameworks</span>
+        </div>
+        <div class="impact-item">
+          <span class="impact-number">750+</span>
+          <span class="impact-label">devs trained</span>
+        </div>
+        <div class="impact-item">
+          <span class="impact-number">€20M+</span>
+          <span class="impact-label">programs led</span>
+        </div>
+      </section>
+
+      <!-- Two-column layout -->
+      <div class="content-grid">
+        
+        <!-- Left Column -->
+        <div class="content-main">
+          
+          <!-- About -->
+          <section id="about" class="card" aria-labelledby="about-title">
+            <h2 id="about-title">About</h2>
+            <p>I lead AI transformation at AXA, helping engineering teams adopt AI-powered development workflows across 54 countries. My focus: bridging cutting-edge AI with enterprise-grade implementation.</p>
+            <p class="subtle">Previously: Datadn (CEO/Founder), Microsoft, Hi-Media, Closer Consulting</p>
+          </section>
+
+          <!-- What I've Built - Results with context -->
+          <section id="results" class="card" aria-labelledby="results-title">
+            <h2 id="results-title">What I've Built</h2>
+            <div class="results-grid">
+              <div class="result-card">
+                <span class="result-icon">🌍</span>
+                <div class="result-content">
+                  <strong>Global Copilot Rollout</strong>
+                  <span>Led GitHub Copilot adoption across 54 countries at AXA</span>
+                </div>
+              </div>
+              <div class="result-card">
+                <span class="result-icon">👥</span>
+                <div class="result-content">
+                  <strong>Engineering Community</strong>
+                  <span>Built AXA's largest tech community: 2,400+ members over 9 years</span>
+                </div>
+              </div>
+              <div class="result-card">
+                <span class="result-icon">🎤</span>
+                <div class="result-content">
+                  <strong>AI Developer Summit</strong>
+                  <span>Flagship event: 950+ attendees from 32 countries</span>
+                </div>
+              </div>
+              <div class="result-card">
+                <span class="result-icon">🔒</span>
+                <div class="result-content">
+                  <strong>Code League</strong>
+                  <span>Security training program: 750+ developers certified</span>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Speaking - Collapsible for cleaner UX -->
+          <section id="speaking" class="card" aria-labelledby="speaking-title">
+            <h2 id="speaking-title">
+              Speaking
+              <span class="availability-badge">Available</span>
+            </h2>
+            <p>Keynotes, workshops, panels, podcasts, executive briefings — in English, French, Portuguese, or Spanish.</p>
+            
+            <div class="topics-compact">
+              <span class="topic-tag">AI Strategy</span>
+              <span class="topic-tag">GitHub Copilot</span>
+              <span class="topic-tag">Developer Communities</span>
+              <span class="topic-tag">Secure SDLC</span>
+              <span class="topic-tag">DevEx</span>
+              <span class="topic-tag">Agentic Development</span>
+            </div>
+
+            <details class="speaking-details">
+              <summary>Recent events & formats</summary>
+              <div class="details-content">
+                <p><strong>Recent:</strong> AXA AI Developer Summit (950+), GitHub Universe Watch Party, Monthly Tech Talks, Executive AI Briefings</p>
+                <p><strong>Formats:</strong> Keynote (45-60 min) • Workshop (2-4 hrs) • Panel • Podcast • Executive Briefing</p>
+              </div>
+            </details>
+
+            <div class="speaking-cta">
+              <a href="mailto:davidgraca@gmail.com?subject=Speaking%20Inquiry" class="btn btn-secondary">Book me to speak</a>
+            </div>
+          </section>
+
+        </div>
+
+        <!-- Right Column - Sidebar -->
+        <aside class="content-sidebar">
+          
+          <!-- Quick Contact Card -->
+          <div id="contact" class="sidebar-card contact-card">
+            <h3>Connect</h3>
+            <div class="contact-links">
+              <a href="https://linkedin.com/in/davidgraca" class="contact-link" target="_blank" rel="noopener">
+                <span class="contact-icon">💼</span>
+                <span>LinkedIn</span>
+              </a>
+              <a href="https://github.com/dmgrok" class="contact-link" target="_blank" rel="noopener">
+                <span class="contact-icon">🐙</span>
+                <span>GitHub</span>
+              </a>
+              <a href="mailto:davidgraca@gmail.com" class="contact-link">
+                <span class="contact-icon">✉️</span>
+                <span>Email</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Expertise Tags -->
+          <div class="sidebar-card">
+            <h3>Expertise</h3>
+            <div class="expertise-tags">
+              <span class="expertise-tag">AI Transformation</span>
+              <span class="expertise-tag">GitHub Copilot</span>
+              <span class="expertise-tag">Engineering Leadership</span>
+              <span class="expertise-tag">DevEx</span>
+              <span class="expertise-tag">Community Building</span>
+              <span class="expertise-tag">Secure SDLC</span>
+            </div>
+          </div>
+
+          <!-- GitHub Preview -->
+          <div id="github" class="sidebar-card github-card">
+            <h3>Open Source</h3>
+            <a href="https://github.com/dmgrok" target="_blank" rel="noopener" class="github-link">
+              <img 
+                src="https://github-readme-stats.vercel.app/api?username=dmgrok&show_icons=true&theme=dark&hide_border=true&bg_color=161b22&hide_title=true&hide_rank=true" 
+                alt="GitHub activity" 
+                loading="lazy" 
+                class="github-img"
+              >
+            </a>
+          </div>
+
+        </aside>
+      </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+      <div class="footer-content">
+        <button class="privacy-link" id="privacy-toggle" aria-expanded="false" aria-controls="privacy-modal">
+          This page adapts to you · No tracking · <u>Learn more</u>
+        </button>
+        <p class="footer-links">
+          <a href="https://github.com/dmgrok/personal_profile" target="_blank" rel="noopener">Source code</a>
+          <span>·</span>
+          <span>Weather by <a href="https://open-meteo.com/" target="_blank" rel="noopener">Open-Meteo</a></span>
+        </p>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Privacy Modal -->
+  <dialog id="privacy-modal" class="modal" aria-labelledby="modal-title">
+    <div class="modal-content">
+      <h2 id="modal-title">How This Page Works</h2>
+      <div class="modal-body">
+        <p>This site personalizes your experience using:</p>
+        <ul>
+          <li>Your browser's language preference</li>
+          <li>Your timezone and local time</li>
+          <li>General location (city-level, via IP)</li>
+          <li>Current weather in your area</li>
+        </ul>
+        <h3>What I DON'T do:</h3>
+        <ul class="dont-list">
+          <li>No cookies sent to servers</li>
+          <li>No personal data collected</li>
+          <li>No tracking or fingerprinting</li>
+        </ul>
+        <p><strong>Everything stays in your browser.</strong></p>
+      </div>
+      <button class="modal-close" id="modal-close" aria-label="Close modal">✕</button>
+    </div>
+  </dialog>
+
+  <!-- Bot output (hidden, for AI crawlers) -->
+  <pre id="bot-output" class="bot-output" style="display: none;" aria-hidden="true"></pre>
+
+  <script src="adaptive.js" defer></script>
+</body>
+</html>

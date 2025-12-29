@@ -1,0 +1,105 @@
+{
+  "meta": {
+    "language": "fr",
+    "languageName": "Français",
+    "direction": "ltr"
+  },
+  "greeting": {
+    "morning": "Bonjour",
+    "afternoon": "Bon après-midi",
+    "evening": "Bonsoir",
+    "night": "Bonsoir, oiseau de nuit"
+  },
+  "hero": {
+    "tagline": "Ingénieur Principal IA pour SDLC/DevEx",
+    "subtitle": "Leader de la transformation IA à grande échelle"
+  },
+  "sections": {
+    "about": {
+      "title": "À propos",
+      "content": "Je dirige les initiatives de transformation IA chez AXA, aidant les équipes d'ingénierie à adopter des workflows de développement assistés par l'IA à grande échelle. Avec plus de 17 ans d'expérience en génie logiciel, je me spécialise dans la connexion entre les capacités IA de pointe et l'implémentation en entreprise."
+    },
+    "expertise": {
+      "title": "Expertise",
+      "items": [
+        "Stratégie & Transformation IA",
+        "Leadership Ingénierie à Grande Échelle",
+        "Adoption GitHub Copilot Enterprise",
+        "Expérience Développeur & Productivité",
+        "SDLC Sécurisé avec l'IA",
+        "Construction de Communautés"
+      ]
+    },
+    "speaking": {
+      "title": "Conférences",
+      "availability": "Disponible pour keynotes, ateliers, panels, podcasts et briefings exécutifs",
+      "topicsLabel": "Sujets que j'aborde :",
+      "languages": "Je présente en anglais, français, portugais et espagnol.",
+      "pastEvents": "Événements Passés",
+      "sessionFormats": "Formats de Session :",
+      "requestKit": "Demander le Kit Speaker",
+      "viewSessionize": "Voir Profil Sessionize"
+    },
+    "results": {
+      "title": "Résultats & Impact"
+    },
+    "github": {
+      "title": "GitHub & Open Source",
+      "featuredRepos": "Dépôts Mis en Avant"
+    },
+    "certifications": {
+      "title": "Certifications & Reconnaissance"
+    },
+    "achievements": {
+      "title": "Impact",
+      "stats": {
+        "years": "Années d'Expérience",
+        "community": "Membres de la Communauté",
+        "countries": "Pays Atteints",
+        "trained": "Développeurs Formés (Sécurité)",
+        "summit": "Participants aux Sommets"
+      }
+    },
+    "visibility": {
+      "title": "Mentions"
+    }
+  },
+  "cta": {
+    "title": "Connectons-nous",
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "email": "Email",
+    "speakingInquiry": "Intéressé par une intervention ? Parlons-en →",
+    "downloadCV": "Télécharger CV"
+  },
+  "footer": {
+    "privacyLink": "Cette page s'adapte à vous. Rien n'est stocké au-delà de votre navigateur. Curieux de savoir comment ?",
+    "sourceCode": "Voir le code source sur GitHub"
+  },
+  "insights": {
+    "contextHeader": "J'ai remarqué quelques détails sur vous...",
+    "weather": {
+      "clear": "Beau ciel dégagé chez vous ! ☀️",
+      "cloudy": "Un peu nuageux par chez vous. Parfait pour coder ! ☁️",
+      "rainy": "Jour de pluie ? Parfait pour explorer de nouvelles idées. 🌧️",
+      "snowy": "De la neige ! Restez au chaud avec un bon café. ❄️",
+      "stormy": "Temps orageux ! J'espère que vous êtes bien installé. ⛈️",
+      "foggy": "Du brouillard dehors. Le code est plus clair que le temps ! 🌫️"
+    },
+    "time": {
+      "late": "Vous travaillez tard ? Je respecte cette dévotion. 🌙",
+      "early": "Lève-tôt ! Les meilleurs commits se font avant le café. 🌅",
+      "weekend": "Navigation du week-end ? J'espère que vous prenez aussi du temps pour vous. 🎉"
+    },
+    "returning": "Content de vous revoir ! 👋",
+    "smallScreen": "Sur mobile ? L'expérience complète vous attend sur desktop. 📱",
+    "developerDetected": "Belle machine que vous avez là ! Un collègue développeur ? 💻",
+    "visitorTypes": {
+      "recruiter": "À la recherche de talents ? Je suis toujours ouvert aux opportunités.",
+      "speaker": "Vous organisez un événement ? Parlons de conférences.",
+      "developer": "Collègue développeur ! N'hésitez pas à voir mon GitHub.",
+      "executive": "Bienvenue ! Je me spécialise dans la stratégie IA pour l'entreprise.",
+      "inperson": "Ravi de vous rencontrer ! Voici plus sur ce que je fais."
+    }
+  }
+}

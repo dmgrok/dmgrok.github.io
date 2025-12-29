@@ -1,0 +1,105 @@
+{
+  "meta": {
+    "language": "es",
+    "languageName": "Español",
+    "direction": "ltr"
+  },
+  "greeting": {
+    "morning": "Buenos días",
+    "afternoon": "Buenas tardes",
+    "evening": "Buenas noches",
+    "night": "Hola, ave nocturna"
+  },
+  "hero": {
+    "tagline": "Ingeniero Principal de IA para SDLC/DevEx",
+    "subtitle": "Liderando transformación de IA a escala"
+  },
+  "sections": {
+    "about": {
+      "title": "Acerca de",
+      "content": "Lidero iniciativas de transformación de IA en AXA, ayudando a equipos de ingeniería a adoptar flujos de trabajo de desarrollo con IA a escala. Con más de 17 años en ingeniería de software, me especializo en conectar capacidades de IA de vanguardia con implementación empresarial."
+    },
+    "expertise": {
+      "title": "Especialidades",
+      "items": [
+        "Estrategia & Transformación de IA",
+        "Liderazgo de Ingeniería a Escala",
+        "Adopción de GitHub Copilot Enterprise",
+        "Experiencia del Desarrollador & Productividad",
+        "SDLC Seguro con IA",
+        "Construcción de Comunidades"
+      ]
+    },
+    "speaking": {
+      "title": "Conferencias",
+      "availability": "Disponible para keynotes, talleres, paneles, podcasts y briefings ejecutivos",
+      "topicsLabel": "Temas que abordo:",
+      "languages": "Presento en inglés, francés, portugués y español.",
+      "pastEvents": "Eventos Anteriores",
+      "sessionFormats": "Formatos de Sesión:",
+      "requestKit": "Solicitar Kit de Speaker",
+      "viewSessionize": "Ver Perfil Sessionize"
+    },
+    "results": {
+      "title": "Resultados & Impacto"
+    },
+    "github": {
+      "title": "GitHub & Código Abierto",
+      "featuredRepos": "Repositorios Destacados"
+    },
+    "certifications": {
+      "title": "Certificaciones & Reconocimiento"
+    },
+    "achievements": {
+      "title": "Impacto",
+      "stats": {
+        "years": "Años de Experiencia",
+        "community": "Miembros de la Comunidad",
+        "countries": "Países Alcanzados",
+        "trained": "Desarrolladores Capacitados (Seguridad)",
+        "summit": "Asistentes a Cumbres"
+      }
+    },
+    "visibility": {
+      "title": "Menciones"
+    }
+  },
+  "cta": {
+    "title": "Conectemos",
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "email": "Email",
+    "speakingInquiry": "¿Interesado en una charla? Hablemos →",
+    "downloadCV": "Descargar CV"
+  },
+  "footer": {
+    "privacyLink": "Esta página se adapta a ti. Nada se almacena más allá de tu navegador. ¿Curioso cómo?",
+    "sourceCode": "Ver código fuente en GitHub"
+  },
+  "insights": {
+    "contextHeader": "Noté algunas cosas sobre ti...",
+    "weather": {
+      "clear": "¡Cielos despejados por allá! ☀️",
+      "cloudy": "Un poco nublado por tu zona. ¡Perfecto para programar! ☁️",
+      "rainy": "¿Día lluvioso? Buen momento para explorar nuevas ideas. 🌧️",
+      "snowy": "¡Nieve! Mantente caliente con un buen café. ❄️",
+      "stormy": "¡Clima tormentoso! Espero que estés cómodo. ⛈️",
+      "foggy": "Niebla afuera. ¡El código está más claro que el tiempo! 🌫️"
+    },
+    "time": {
+      "late": "¿Trabajando tarde? Respeto la dedicación. 🌙",
+      "early": "¡Madrugador! Los mejores commits ocurren antes de que el café haga efecto. 🌅",
+      "weekend": "¿Navegando el fin de semana? Espero que también estés descansando. 🎉"
+    },
+    "returning": "¡Bienvenido de nuevo! Qué bueno verte otra vez. 👋",
+    "smallScreen": "¿En móvil? La experiencia completa te espera en escritorio. 📱",
+    "developerDetected": "¡Veo que tienes una máquina potente! ¿Colega desarrollador? 💻",
+    "visitorTypes": {
+      "recruiter": "¿Buscando talento? Siempre abierto a hablar sobre oportunidades.",
+      "speaker": "¿Planeando un evento? Me encantaría discutir conferencias.",
+      "developer": "¡Colega desarrollador! Siéntete libre de ver mi GitHub.",
+      "executive": "¡Bienvenido! Me especializo en estrategia de IA para empresas.",
+      "inperson": "¡Encantado de conocerte! Aquí hay más sobre lo que hago."
+    }
+  }
+}

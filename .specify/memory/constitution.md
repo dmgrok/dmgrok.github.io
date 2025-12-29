@@ -1,50 +1,75 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!--
+Sync Impact Report
+==================
+Version change: 0.0.0 → 1.0.0
+Modified principles: Initial creation
+Added sections: Core Principles (5), Privacy & Ethics, Technical Standards, Governance
+Removed sections: None (initial)
+Templates requiring updates: ✅ No updates needed (initial setup)
+Follow-up TODOs: None
+-->
+
+# Adaptive Profile Page Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### I. Visitor-First Experience
+Every design decision MUST prioritize the visitor's experience over technical cleverness. Personalization MUST feel helpful, not creepy. The page MUST load fast, adapt gracefully, and respect user preferences (dark mode, reduced motion, language). If personalization fails, the page MUST still deliver a complete, professional experience.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### II. Privacy by Design
+No personal data MUST be collected, transmitted, or stored on external servers. All visitor context (IP geolocation, weather, visit history) MUST remain client-side only. Bot detection and analytics MUST NOT fingerprint users for tracking purposes. The privacy model MUST be transparent and explainable to visitors. localStorage is acceptable; cookies and server-side tracking are NOT.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### III. Graceful Degradation
+Every external API call (IP, weather) MUST have a fallback. If APIs fail, timeout, or are blocked, the page MUST still render correctly with default content. Bot detection MUST err on the side of treating ambiguous visitors as human. JavaScript failures MUST NOT break the core content display.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### IV. Multilingual Excellence
+Full translations MUST exist for English, French, Portuguese, and Spanish. For other languages, a localized greeting ("Nice to meet you") MUST be displayed with English content. Language detection MUST use navigator.language as the primary signal. Translation strings MUST be externalized in JSON files, not hardcoded.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+### V. Professional Positioning
+All content MUST position David Graça as an AI & Engineering executive, thought leader, and conference speaker. The tone MUST be confident but approachable, technical but accessible. Stats and achievements MUST be verifiable and current. The page MUST adapt messaging based on visitor context (recruiter, developer, speaker inquiry, executive) without being manipulative.
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
+## Privacy & Ethics
 
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
+- IP geolocation is used ONLY for weather/location context, not stored beyond the session
+- Company/org detection from IP MUST be used only for anonymous analytics aggregation
+- No third-party tracking pixels, advertising cookies, or fingerprinting
+- Clear disclosure: "This page adapts to you. Nothing is stored beyond your browser."
+- Source code MUST be public and auditable
+- YAML output for bots is a feature, not deception
 
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
+## Technical Standards
 
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+### Performance
+- First Contentful Paint MUST be under 1.5 seconds on 3G
+- Total page weight MUST be under 500KB (excluding photo)
+- No render-blocking JavaScript for core content
+- Images MUST be optimized and lazy-loaded where appropriate
+
+### Accessibility
+- WCAG 2.1 AA compliance MUST be maintained
+- All interactive elements MUST be keyboard navigable
+- Color contrast MUST meet minimum ratios
+- prefers-reduced-motion MUST disable animations
+
+### Code Quality
+- Vanilla HTML/CSS/JS preferred over frameworks (GitHub Pages constraint)
+- CSS MUST use custom properties for theming
+- JavaScript MUST be modular and well-commented
+- No external dependencies for core functionality
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+This constitution establishes non-negotiable principles for the Adaptive Profile Page project. All implementation decisions MUST align with these principles.
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Amendment Process:**
+1. Propose changes with rationale
+2. Evaluate impact on existing implementation
+3. Update constitution version following semver
+4. Update implementation to comply
+
+**Compliance:**
+- Every feature MUST be evaluated against Privacy by Design principle
+- Performance budgets MUST be verified before deployment
+- Accessibility MUST be tested with automated tools + manual review
+
+**Version**: 1.0.0 | **Ratified**: 2025-12-29 | **Last Amended**: 2025-12-29
