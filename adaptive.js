@@ -299,28 +299,29 @@
     const timeout = setTimeout(() => controller.abort(), API_TIMEOUT);
 
     try {
+      // Using ipapi.co - free tier with HTTPS support (1000 req/day)
       const resp = await fetch(
-        'http://ip-api.com/json/?fields=status,country,countryCode,regionName,city,lat,lon,timezone,isp,org,mobile,proxy,hosting',
+        'https://ipapi.co/json/',
         { signal: controller.signal }
       );
       clearTimeout(timeout);
 
       const data = await resp.json();
-      if (data.status !== 'success') return null;
+      if (data.error) return null;
 
       return {
         city: data.city,
-        region: data.regionName,
-        country: data.country,
-        countryCode: data.countryCode,
-        latitude: data.lat,
-        longitude: data.lon,
+        region: data.region,
+        country: data.country_name,
+        countryCode: data.country_code,
+        latitude: data.latitude,
+        longitude: data.longitude,
         timezone: data.timezone,
-        isp: data.isp,
+        isp: data.org,
         org: data.org,
-        isProxy: data.proxy,
-        isHosting: data.hosting,
-        isMobile: data.mobile
+        isProxy: false,
+        isHosting: false,
+        isMobile: false
       };
     } catch (e) {
       clearTimeout(timeout);
